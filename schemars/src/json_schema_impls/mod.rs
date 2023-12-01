@@ -78,7 +78,7 @@ mod serdejson;
 mod smallvec;
 #[cfg(feature = "smol_str")]
 mod smol_str;
-mod time;
+mod std_time;
 mod tuple;
 #[cfg(feature = "url")]
 mod url;
